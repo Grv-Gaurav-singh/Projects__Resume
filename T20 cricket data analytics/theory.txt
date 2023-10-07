@@ -1,0 +1,59 @@
+T20 World Cup Cricket Data Analytics [Python | Web Scraping | Excel | Power BI]
+
+video = https://www.youtube.com/watch?v=4QkYy1wANXA&t=572s
+
+espn link - https://www.espncricinfo.com/records/tournament/team-match-results/icc-men-s-t20-world-cup-2022-23-14450
+
+Problem = To find out best 11 players for cricket based on the t20 world cup cricket data 
+Requirement = The team should be able to score atleast 180 runs on an average and
+              They should be to defend 150 runs on an average.
+
+PARAMETERS(Opener) 
+Batting average: Average runs scored in an innings   > 30
+Strike Rate: No of runs scored per 100 balls     > 140
+Inning Batted: Total Innings batted                > 3
+Boundary %: % of runs scored in boundaries      > 50
+Battinng Position: Order in which the batter played   < 4
+
+PARAMETERS(Anchors/middle order) 
+Batting average: Average runs scored in an innings   > 40
+Strike Rate: No of runs scored per 100 balls     > 125
+Inning Batted: Total Innings batted                > 3
+Average ball faced: Average balls faced by the batter in an innings > 20
+Battinng Position: Order in which the batter played    > 2
+
+PARAMETERS(Finisher/Lower order anchor)
+Batting average: Average runs scored in an innings   > 25
+Strike Rate: No of runs scored per 100 balls     > 130
+Inning Batted: Total Innings batted                > 3
+Average ball faced: Average balls faced by the batter in an innings > 12
+Battinng Position: Order in which the batter played    > 4
+Inning Bowled: Total Innings Bowled by the bowler  >1
+
+PARAMETERS(All-Rounder/lower order)
+Batting average: Average runs scored in an innings   > 15
+Strike Rate: No of runs scored per 100 balls     > 140
+Inning Batted: Total Innings batted                > 2
+Battinng Position: Order in which the batter played    > 4
+Inning Bowled: Total Innings Bowled by the bowler  > 2
+Bowling Economy :Average run allowed per over : < 7
+Bowling strike rate: Average no. of balls required to take wicket < 20
+
+PARAMETERS(Specialist fast Bowlers)
+Inning Bowled: Total Innings Bowled by the bowler  > 4
+Bowling Economy :Average run allowed per over : < 7
+Bowling strike rate: Average no. of balls required to take wicket < 16
+Bowling style : Bowling style of the player : =%FAST%
+Bowling average:no. of runs allowed per wicket : <20
+Dot ball: % of dot ball bowled : >40
+
+Process - 
+Data collection using web scraping (from ESPN Cricinfo website)
+Data cleaning and transformation in Python Pandas
+Data transformation in Power Query
+Data modeling and building parameters using DAX
+Build dashboard in Power BI
+Collect insights from the dashboard and select the final 11 players
+
+
+
