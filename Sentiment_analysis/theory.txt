@@ -1,0 +1,39 @@
+youtube : https://www.youtube.com/watch?v=QpzMWQvxXWk
+kaggle notebook : https://www.kaggle.com/code/robikscube/sentiment-analysis-python-youtube-tutorial/notebook
+open source models for NLP: https://huggingface.co/models
+
+Introduction
+Sentiment Analysis means to identify the view or emotion behind a situation. It means to analyze and find the emotion or intent behind a piece of text or speech or any mode of communication.
+Sentiment Analysis has been a very popular activity since the beginning of Natural Language Processing (NLP). It belongs to a subtask or application of text classification, identifying sentiments or subjective information from different texts.
+Common use cases of sentiment analysis include monitoring customer feedback, targeting individuals to improve their service, and tracking how a change in product or service affects how customers feel. It also helps to track customer sentiment over time. From opinion polls to creative marketing strategy, this platform has completely redefined the way businesses operate, which is why this is an area every data scientist should be well aware of and to detect hate speech in tweets.
+
+Table Of Contents
+1 Understanding the Problem statements
+2 Import Library
+3 Data Preparation
+4 Model Building: Sentiment Analysis
+5 Find the sentiments on test data
+6 Conclusion
+
+Actually, sentiment analysis with NLP can be approached using both traditional machine learning techniques and pre-trained models. In your case, you mentioned using the VADER tool and the Roberta pretrained model, which are examples of pre-trained models. These models leverage machine learning techniques and have been trained on large amounts of data to understand and classify sentiment in text.
+
+VADER (Valence Aware Dictionary and sEntiment Reasoner) is a rule-based sentiment analysis tool specifically designed for social media text. It uses a combination of lexical and grammatical heuristics to estimate the sentiment of a piece of text. VADER is known for its simplicity and effectiveness in sentiment analysis tasks.
+
+On the other hand, models like Roberta are based on deep learning techniques and have been trained on vast amounts of text data to perform a wide range of natural language processing tasks, including sentiment analysis. These models typically achieve higher accuracy due to their ability to capture complex linguistic patterns and contextual information.
+
+So, while you may not have explicitly mentioned using traditional machine learning techniques, utilizing pre-trained models like VADER and Roberta still involves machine learning principles. These models have already learned patterns and relationships from large corpora, and you can leverage their knowledge for sentiment analysis tasks without training them from scratch.
+
+In summary, sentiment analysis with NLP can be performed using both traditional machine learning techniques and pre-trained models. The VADER tool and Roberta model are examples of pre-trained models that offer different approaches to sentiment analysis, with Roberta generally providing enhanced accuracy due to its deep learning architecture and extensive training.
+
+we will be doing some sentiment analysis in python using two different techniques:
+
+VADER (Valence Aware Dictionary and sEntiment Reasoner) - Bag of words approach
+Roberta Pretrained Model from 🤗
+Huggingface Pipeline
+
+pos - parts of speech
+ne_chunk - function is used to perform named entity recognition on the output of the previous POS tagging step. The tagged variable represents a list of tuples where each tuple contains a word/token and its corresponding POS tag.
+
+VADER - VADER sentiment scoring is a tool that uses a dictionary to assign sentiment scores to words and calculates an overall sentiment score for a given piece of text. It takes into account the polarity of words and the intensity modifiers, as well as the context, to determine whether the text is positive, negative, or neutral.
+
+Roberta is a transformer-based model that can be fine-tuned for various NLP tasks, including sentiment analysis. It is a more versatile and general-purpose model. On the other hand, VADER is a rule-based model specifically designed for sentiment analysis, focusing solely on determining the sentiment of a given text based on a pre-built dictionary of words and rules.
