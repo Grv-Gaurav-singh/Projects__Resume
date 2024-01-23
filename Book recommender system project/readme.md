@@ -18,7 +18,7 @@ Hybrid-Based Recommender System:
 Definition: Hybrid recommender systems combine multiple recommendation approaches to provide more accurate and diverse recommendations. It leverages the strengths of different methods to overcome their individual limitations.
 Calculation: Hybrid systems can involve a weighted combination of results from popularity-based, content-based, and collaborative filtering algorithms. The goal is to enhance recommendation accuracy and provide a more personalized user experience. 
 
-**Constraints for recomender systems:**<br />
+**Constraints for recommender systems:**<br />
 popularity - we will display the top 50 books with highest average rating but we will consider only those books who have got minimum 250 votes.<br />
 collabrative - Those users are selected that have done more than 200 books rating and those books are selected in which minimum 50 ratings have been done.
 
