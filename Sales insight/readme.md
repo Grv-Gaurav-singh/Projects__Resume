@@ -15,3 +15,5 @@ quick decision-making, allowing the sales director to grasp the company's sales
 landscape effortlessly.
 So, in a nutshell, I turned complicated data into a handy dashboard to help 
 AtliQ Hardware make better decisions about their sales.
+
+**For more detail about this project, please refer to Sales insight theory.docx file** 
