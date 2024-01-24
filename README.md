@@ -1,6 +1,6 @@
 # Data Science and Machine Learning Projects Repository
 
-Welcome to my repository! I'm Gaurav Kumar Singh, a passionate data science enthusiast currently pursuing my M.Tech in Biomedical Engineering from IIT Hyderabad. This repository houses a collection of my projects, covering various aspects of data science, machine learning, and natural language processing (NLP) and my coursework projects. Each project is contained in its respective folder, with a dedicated README file providing detailed information.
+Welcome to my repository! I'm Gaurav Kumar Singh, a passionate data science enthusiast currently pursuing my M.Tech in Biomedical Engineering from IIT Hyderabad. This repository houses a collection of my projects, covering various aspects of data science, machine learning, natural language processing (NLP) and my coursework projects. Each project is contained in its respective folder, with a dedicated README file providing detailed information.
 
 ## About Me:
 
