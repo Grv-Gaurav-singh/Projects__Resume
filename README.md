@@ -19,5 +19,5 @@ I welcome feedback, suggestions, and collaboration opportunities. If you find th
 Thank you for visiting, and I hope you find these projects informative and inspiring.
 
 Happy coding!  
-[Gaurav Kumar Singh] 
+[Gaurav Kumar Singh] <br />
 Email- bm22mtech11002@iith.ac.in
