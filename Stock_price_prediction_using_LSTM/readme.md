@@ -1,4 +1,4 @@
-**Stock Price Prediction of TCS using LSTM Neural Networks**
+### Stock Price Prediction of TCS using LSTM Neural Networks
 
 ### Introduction:
 This project aims to predict the stock prices of TCS (Tata Consultancy Services) using LSTM (Long Short-Term Memory) Neural Networks. LSTM is a type of recurrent neural network (RNN) architecture well-suited for time-series prediction tasks due to its ability to capture long-term dependencies in data.
